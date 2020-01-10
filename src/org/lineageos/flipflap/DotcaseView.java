@@ -480,7 +480,10 @@ public class DotcaseView extends FlipFlapView {
         if (str == null) {
             return "";
         }
-        return Normalizer.normalize(str.toLowerCase(), Normalizer.Form.NFD)
+        return Normalizer.normalize(str.toLowerCase()
+                .replaceAll("ä", "ae")
+                .replaceAll("ö", "oe")
+                .replaceAll("ü", "ue"), Normalizer.Form.NFD)
                 .replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
                 .replaceAll("æ", "ae")
                 .replaceAll("ð", "d")
