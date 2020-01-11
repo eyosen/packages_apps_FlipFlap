@@ -55,6 +55,7 @@ public class DotcaseConstants {
         SIGNAL,
         LIBRENEWS,
         CONVERSATIONS,
+        TELEGRAM,
     }
 
     /**
@@ -90,6 +91,7 @@ public class DotcaseConstants {
         0xfff86901, // Tapatalk Orange
         0xff2090ea, // Signal Blue
         0xff259b24, // Conversations Green
+        0xff2aa1d4, // Telegram Blue
     };
 
     static int getColorFromNumber(final int color) {
@@ -159,6 +161,7 @@ public class DotcaseConstants {
         notificationMap.put("app.librenews.io.librenews", Notification.LIBRENEWS);
         notificationMap.put("eu.siacs.conversations", Notification.CONVERSATIONS);
         notificationMap.put("eu.siacs.conversations.legacy", Notification.CONVERSATIONS);
+        notificationMap.put("org.telegram.messenger", Notification.TELEGRAM);
     }
 
     /**
@@ -395,6 +398,16 @@ public class DotcaseConstants {
         { 0,  0,  0, 27, 27,  0,  0},
         { 0,  0,  0,  0,  0, 27,  0}};
 
+    static final int[][] telegramSprite = {
+        { 0,  0,  0,  0,  0,  0,  0},
+        { 0, 28, 28, 28, 28, 28,  0},
+        {28, 28, 28, 28, 28,  1, 28},
+        {28, 28,  1,  1,  1,  1, 28},
+        { 1,  1,  1,  1,  1, 28, 28},
+        {28, 28,  1,  1,  1, 28, 28},
+        {28, 28, 28,  1, 28, 28, 28},
+        { 0, 28, 28,  1, 28, 28,  0}};
+
     static int[][] getNotificationSprite(Notification notification) {
         switch (notification) {
             case DOTS:
@@ -443,6 +456,8 @@ public class DotcaseConstants {
                 return librenewsSprite;
             case CONVERSATIONS:
                 return conversationsSprite;
+            case TELEGRAM:
+                return telegramSprite;
             default:
                 return null;
         }
