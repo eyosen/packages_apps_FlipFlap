@@ -57,6 +57,7 @@ public class DotcaseConstants {
         CONVERSATIONS,
         TELEGRAM,
         THREEMA,
+        SLACK,
     }
 
     /**
@@ -164,6 +165,7 @@ public class DotcaseConstants {
         notificationMap.put("eu.siacs.conversations.legacy", Notification.CONVERSATIONS);
         notificationMap.put("org.telegram.messenger", Notification.TELEGRAM);
         notificationMap.put("ch.threema.app", Notification.THREEMA);
+        notificationMap.put("com.Slack", Notification.SLACK);
     }
 
     /**
@@ -420,6 +422,16 @@ public class DotcaseConstants {
         { 0,  0,  3,  3,  3,  0,  0},
         { 0,  0,  0,  0,  0,  0,  0}};
 
+    static final int[][] slackSprite = {
+        { 0,  0,  0,  0,  0,  0,  0},
+        { 0,  1,  1,  1,  1,  0,  0},
+        { 1,  1,  9,  3,  1,  1,  0},
+        { 1,  9,  9,  3,  3,  1,  0},
+        { 1,  2,  2,  7,  7,  1,  0},
+        { 1,  1,  2,  7,  1,  1,  0},
+        { 0,  1,  1,  1,  1,  0,  0},
+        { 0,  0,  0,  0,  0,  0,  0}};
+
     static int[][] getNotificationSprite(Notification notification) {
         switch (notification) {
             case DOTS:
@@ -472,6 +484,8 @@ public class DotcaseConstants {
                 return telegramSprite;
             case THREEMA:
                 return threemaSprite;
+            case SLACK:
+                return slackSprite;
             default:
                 return null;
         }
