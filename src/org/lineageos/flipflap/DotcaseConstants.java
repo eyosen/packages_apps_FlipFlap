@@ -117,6 +117,7 @@ public class DotcaseConstants {
         notificationMap.put("com.maildroid", Notification.EMAIL);
         notificationMap.put("com.maildroid.pro", Notification.EMAIL);
         notificationMap.put("com.fsck.k9", Notification.EMAIL);
+        notificationMap.put("de.eue.mobile.android.mail", Notification.EMAIL);
 
         // Twitter apps
         notificationMap.put("com.twitter.android", Notification.TWITTER);
