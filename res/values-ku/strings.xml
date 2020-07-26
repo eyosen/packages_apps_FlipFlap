@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (c) 2017 The LineageOS Project
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ Also add information on how to contact you by electronic and paper mail.
+
+-->
+<resources>
+    <string name="app_name">FlipFlap</string>
+    <string name="notification_title">کەڤەری زیرەک دۆزراوە</string>
+    <string name="alarm_label">ووریاکەر</string>
+    <!-- String matching the lock screen format for displaying the date. -->
+    <string name="answer_call">وڵامدانەوە</string>
+    <string name="ignore_call">پشتگوێ خستن</string>
+    <string name="end_call">کۆتاهێنان</string>
+    <!-- Strings for the Settings -->
+    <string name="settings_name">کەڤەری زیرەک</string>
+    <string name="category_behaviour">ڕه‌وشت</string>
+    <string name="pass_to_security_view_title">ڕاستەوخۆ بچۆرەسەر تێپەڕەوشەوە</string>
+    <string name="pass_to_security_view_summary">ڕاستەوخۆ پیشاندانی ڕوونماداخراو دوای کردنەوەی کەڤەر</string>
+    <string name="category_design">دیزاین</string>
+    <string name="switch_charging_status_title">پیشاندانی ڕەوشی بارگاوی</string>
+    <string name="switch_charging_status_summary">گۆڕینی ڕەنگی کەوتنەسەر بارگاوی ئێستای پاتری</string>
+    <string name="category_timeouts">وەستانەکان</string>
+    <string name="timeout_plugged_title">لەکاتی بارگاوی</string>
+    <string name="timeout_unplugged_title">پچڕا</string>
+    <string name="timeout_summary">پیشاندانی ئەپی کەڤەر بۆ %s دوای داخستنی پێڵوو</string>
+    <string name="timeout_summary_never">دوای داخستنی پێڵووەکە، ئەپی کەڤەر هەمیشە هەڵدەبێت</string>
+    <string name="timeout_summary_immediately">ڕوونماکە دەکوژێتەوە کاتێ کەڤەرەکە دائەخرێت</string>
+    <string name="timeout_entry_immediately">ڕاستەوخۆ</string>
+    <string name="timeout_entry_5s">5 چرکە</string>
+    <string name="timeout_entry_10s">10 چرکە</string>
+    <string name="timeout_entry_30s">30 چرکە</string>
+    <string name="timeout_entry_1min">1 خولەک</string>
+    <string name="timeout_entry_5min">5 خوله‌ک</string>
+    <string name="timeout_entry_never">هەرگیز</string>
+</resources>
