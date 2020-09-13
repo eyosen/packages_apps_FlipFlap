@@ -21,11 +21,9 @@
     <string name="app_name">FlipFlap</string>
     <string name="notification_title">کەڤەری زیرەک دۆزراوە</string>
     <string name="alarm_label">ووریاکەر</string>
-    <!-- String matching the lock screen format for displaying the date. -->
     <string name="answer_call">وڵامدانەوە</string>
     <string name="ignore_call">پشتگوێ خستن</string>
     <string name="end_call">کۆتاهێنان</string>
-    <!-- Strings for the Settings -->
     <string name="settings_name">کەڤەری زیرەک</string>
     <string name="category_behaviour">ڕه‌وشت</string>
     <string name="pass_to_security_view_title">ڕاستەوخۆ بچۆرەسەر تێپەڕەوشەوە</string>
