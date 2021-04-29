@@ -53,7 +53,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.android.internal.util.aicp.util.AicpLockPatternUtils;
+import com.android.internal.util.aicp.AicpLockPatternUtils;
 
 public class FlipFlapView extends FrameLayout {
     private static final String TAG = "FlipFlapView";
