@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Main">
 
-        <receiver android:name=".EventReceiver">
+        <receiver android:name=".EventReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="aicp.intent.action.LID_STATE_CHANGED" />
             </intent-filter>
@@ -41,7 +41,8 @@
             android:name=".FlipFlapSettingsActivity"
             android:label="@string/settings_name"
             android:icon="@drawable/ic_settings_flipflap"
-            android:enabled="false">
+            android:enabled="false"
+            android:exported="false">
 
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
